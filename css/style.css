@@ -3,5 +3,7 @@ body {
 }
 
 .wrapper {
-    
+    display: flex;
+    min-height: 100vh;
+    background: transparent url('../images/background.svg') repeat center center;
 }
