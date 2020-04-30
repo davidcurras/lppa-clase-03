@@ -42,6 +42,10 @@ a, a:hover, a:visited {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    background-color: #4AA9D0;
+    padding: 0 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .game .board .column {
