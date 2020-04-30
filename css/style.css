@@ -18,12 +18,9 @@ a, a:hover, a:visited {
     background: transparent url('../images/background.svg') repeat center center;
 }
 
-.header, .game, .footer {
-    padding: 1rem;
-}
-
 .header {
     align-self: flex-start;
+    padding: 14px 9px;
 }
 
 .header a, .header a:visited {
@@ -32,4 +29,37 @@ a, a:hover, a:visited {
 
 .header a:hover {
     color: #069;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 5px;
+}
+
+.footer button {
+    margin: 5px;
+    border-radius: 3px;
+    padding: 0 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.footer button.fb {
+    background-color: #3478E8;
+    border-color: #3478E8;
+    color: #FFF;
+}
+
+.footer button.embed {
+    background-color: transparent;
+    border-color: #3987A7;
+    color: #3987A7;
+}
+
+.footer button.embed:hover {
+    background-color: #3987A7;
+    border-color: #3987A7;
+    color: #FFF;
 }
