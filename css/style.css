@@ -12,7 +12,6 @@ a, a:hover, a:visited {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    align-content: space-between;
     min-height: 100vh;
     width: 100vw;
     background: transparent url('../images/background.svg') repeat center center;
@@ -30,6 +29,38 @@ a, a:hover, a:visited {
 .header a:hover {
     color: #069;
 }
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.game .board {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.game .board .column {
+    padding: 5px;
+    background-color: #3987A7;
+}
+
+.game .board .column:hover {
+    background-color: rgba(255, 255, 255, .25);
+}
+
+.game .board .column .spot {
+    width: 40px;
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 40px;
+    background-color: #FFF;
+}
+
 
 .footer {
     display: flex;
